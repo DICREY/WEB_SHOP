@@ -190,10 +190,9 @@ nav {
 .title-container {
     display: flex;
 }
-.title-container img {
-    transform: rotate(180deg);
+.title-container i {
     margin-right: 14px;
-    }
+}
 .title {
     font-size: var(--lg);
     font-weight: bold;
@@ -207,6 +206,10 @@ nav {
     margin-bottom: 24px;
     border-radius: 8px;
     padding: 0 24px;
+    color: var(--black);
+}
+.btn-product-delete{
+    font-size: 1.5rem;
     color: var(--black);
 }
 .order p:nth-child(1) {

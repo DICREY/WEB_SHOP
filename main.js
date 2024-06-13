@@ -185,9 +185,8 @@ document.addEventListener("DOMContentLoaded",function() {
             precio.innerText = String("$" + cartProduct.precio + ",00")
             productShoppingCart.appendChild(precio)
 
-            const deleteProduct = document.createElement("img")
-            deleteProduct.setAttribute("src","./icons/icon_close.png")
-            deleteProduct.setAttribute("alt","close")
+            const deleteProduct = document.createElement("i")
+            deleteProduct.setAttribute("class","bx bxs-x-circle btn-product-delete")
             productShoppingCart.appendChild(deleteProduct)
             
             cero += cartProduct.precio  
