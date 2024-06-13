@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="https://i.pinimg.com/736x/7e/0c/de/7e0cdebb6b84b5d33ccc97eb3f853404.jpg" type="image/x-icon">
+  <title>Shop</title>
+</head>
+<body>
+  <nav>
+    <i class='bx bx-menu-alt-left menu'></i>
+    <div class="navbar-left">
+      <div class="logo"></div>
+      <ul>
+        <li>
+           <a href="#">All</a>
+        </li>
+        <li>
+            <a href="#">Cars</a>
+        </li>
+        <li>
+            <a href="#">Super Cars</a>
+        </li>
+        <li>
+            <a href="#">Others</a>
+        </li>
+        <li>
+            <i class='bx bxs-moon theme-btn'></i>
+        </li>
+        <li>
+          <i class='bx bx-add-to-queue btn-add-product'></i>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <ul>
+        <li class="navbar-email">name@gmail.com</li>
+        <li class="navbar-shopping-cart">
+            <i class='bx bx-cart'></i>
+            <div class="productInCart"></div>
+          </li>
+      </ul>
+    </div>
+    <div class="desktop-menu inactive">
+        <ul>
+          <li>
+            <a href="/" class="title">My orders</a>
+          </li>
+    
+          <li>
+            <a href="/">My account</a>
+          </li>
+    
+          <li>
+            <a href="/">Sign out</a>
+          </li>
+        </ul>
+    </div>
+    <div class="mobile-menu inactive">
+      <ul>
+        <li>
+            <a href="/">CATEGORIES</a>
+          </li>
+          <li>
+            <a href="/">All</a>
+          </li>
+          <li>
+            <a href="#">Cars</a>
+        </li>
+        <li>
+            <a href="#">Super Cars</a>
+        </li>
+        <li>
+            <a href="#">Others</a>
+        </li>
+          </li>
+        </ul>
+    
+        <ul>
+          <li>
+            <a href="/">My orders</a>
+          </li>
+          <li>
+            <a href="/">My account</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="/" class="email">name@gmail.com</a>
+          </li>
+          <li>
+            <a href="/" class="sign-out">Sign out</a>
+          </li>
+        </ul>
+    </div>
+    <aside class="cartShoppingDetail inactive">
+      <div class="title-container">
+          <img src="./icons/flechita.svg" alt="arrow">
+          <p class="title">My order</p>
+      </div>
+      <div class="my-order-content">
+        <div class="shopping-cart">
+        </div>
+        <div class="order">
+          <p>
+              <span>Total</span>
+          </p>
+          <p class="precioTotal"></p>
+        </div>
+        <button class="primary-button">
+          Checkout
+        </button>
+      </div>
+    </aside>
+  </nav>
+  <section class="main-container">
+    <div class="cards-container">
+    </div>
+    <aside class="product-detail inactive">
+      <div class="product-detail-close">
+        <p class="btn-exit-product-details">
+          <i class='bx bx-x'></i>
+        </p>
+      </div>
+      <img class="img-product-details">
+      <div class="product-info-details">
+        <div>
+          <p class="product-name-details"></p>
+          <p class="product-value-details"></p>
+        </div>
+        <p class="description-product"></p>
+        </div>
+      <button class="primary-button add-to-cart-button">
+        <i class='bx bx-cart'></i>
+        Add to cart
+      </button>
+    </aside>
+  </section>
+  <script src="./main.js"></script>
+</body>
+</html>
