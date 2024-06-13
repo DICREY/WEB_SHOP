@@ -382,6 +382,28 @@ nav {
     font-size: 1.5rem;
     margin: 4px;
 }
+.btn-float {
+    display: grid;
+    place-items: center;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid var(--dark-cyan);
+    color: var(--black);
+    background-color: var(--dark-cyan);
+    z-index: 3;
+    }
+.icon-btn-float{
+    font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
+}
+.bx-x{
+    transform: rotate(360deg);
+}
 @media (max-width: 562px) {
     .menu {
       display: block;

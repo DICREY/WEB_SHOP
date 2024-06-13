@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded",function() {
     const valueProductDetails = document.querySelector(".product-value-details")
     const productDescription = document.querySelector(".description-product")
     const btnAddProduct = document.querySelector(".btn-add-product")
+    const btnFloat = document.querySelector(".btn-float")
+    const btnFloatIcon = document.querySelector(".icon-btn-float")
 
     navbar_email.addEventListener("click",despmenu)
     btnmenu.addEventListener("click",mobmenu)
@@ -24,6 +26,13 @@ document.addEventListener("DOMContentLoaded",function() {
     themeBtn.addEventListener("click",theme)
     exitDetailProductAside.addEventListener("click",exitProductDetails)
     btnAddProduct.addEventListener("click",addProductWeb)
+    btnFloat.addEventListener("click",floatBtn)
+
+    function floatBtn(){
+        const name = "bx bxs-chat icon-btn-float"
+        let nameClass = name == btnFloatIcon.className ? "bx bx-x icon-btn-float" : "bx bxs-chat icon-btn-float"
+        btnFloatIcon.className = nameClass
+    }
 
     function despmenu() {
         shopping_details.classList.add("inactive")
@@ -48,13 +57,11 @@ document.addEventListener("DOMContentLoaded",function() {
             themeBtn.className = "bx bxs-sun theme-btn"
             document.documentElement.style.setProperty("--white","#00161a")
             document.documentElement.style.setProperty("--black","white")
-            return
         }
         else if (themeBtn.className === classSun) {
             themeBtn.className = "bx bxs-moon theme-btn"
             document.documentElement.style.setProperty("--white","white")
             document.documentElement.style.setProperty("--black","#00161a")
-            return
         }
     }
     const productlist = [
