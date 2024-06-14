@@ -41,7 +41,7 @@ nav {
     position: sticky;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
+    height: auto;
     width: auto;
     background-color: var(--dark-cyan);
     font-weight: bold;
