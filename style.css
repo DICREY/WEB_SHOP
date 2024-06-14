@@ -1,6 +1,6 @@
 :root {
-    --white: white;
-    --black: #00161a;
+    --white: #00161a;
+    --black: white;
     --dark-cyan: darkcyan;
     --text-input-field: rgba(0, 139, 139, 0.144);
     --aqua: aqua;
