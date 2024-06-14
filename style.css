@@ -137,7 +137,7 @@ nav {
     color: var(--black);
     width: 150px;
     height: auto;
-    top: 10vh;
+    top: 60px;
     right: 60px;
     border: 1px solid var(--dark-cyan);
     border-radius: 6px;
@@ -171,7 +171,7 @@ nav {
 /* shopping car */
 .cartShoppingDetail {
     position: absolute;
-    top: 10vh;
+    top: 60px;
     right: 0;
     max-height: 80vh;
     width: 360px;
@@ -317,7 +317,7 @@ nav {
     color:var(--black);
     font-weight: bold;
     right: 0;
-    top: 10vh;
+    top: 60px;
     z-index: 4;
 }
 .product-detail-close {
@@ -453,7 +453,7 @@ nav {
     }
     .mobile-menu {
         position: absolute;
-        top: 10vh;
+        top: 60px;
         left: 0;
         max-height: 85vh;
         overflow: auto;
