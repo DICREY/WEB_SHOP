@@ -306,7 +306,7 @@ nav {
 /* Products details */
 .product-detail {
     position: fixed;
-    height: 85vh;
+    max-height: 85vh;
     width: 320px;
     overflow-x: hidden;
     overflow-y: auto;

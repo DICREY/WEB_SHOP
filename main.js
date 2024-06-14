@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded",function() {
     const productlist = [
         {
             name: "Nissan GTR R34",
-            precio: 1200.00,
+            precio: 12000.00,
             imagen: "https://i.pinimg.com/736x/7a/ef/05/7aef05392cedb6fb8d353832ca2ab828.jpg",
             description: "The Nissan Skyline GT-R R34 is an iconic sports car produced by the Japanese automaker Nissan. Part of the GT-R lineage, the R34 model was produced from 1999 to 2002 and is revered for its performance, advanced technology, and its significant role in automotive and pop culture"
         },
@@ -106,6 +106,18 @@ document.addEventListener("DOMContentLoaded",function() {
             precio: 40000.00,
             imagen: "https://i.pinimg.com/736x/b0/8a/09/b08a09827543bcc151ef558d4018864a.jpg",
             description: "The Koenigsegg Agera is a high-performance hypercar produced by Swedish automaker Koenigsegg. Introduced in 2010, the Agera is renowned for its innovative engineering, blistering speed, and advanced technology. It set several world records for speed and performance, further establishing Koenigsegg as a leading name in the hypercar segment."
+        },
+        {
+            name: "Toyota Supra Mk4",
+            precio: 11000.00,
+            imagen: "https://i.pinimg.com/564x/81/65/aa/8165aa2294011e30b7758b180604ea18.jpg",
+            description: "The Toyota Supra MK5, also known as the A90, marks the return of the iconic Supra nameplate. Released in 2019, this model represents a collaboration between Toyota and BMW, sharing its platform and some components with the BMW Z4."
+        },
+        {
+            name: "Mazda Rx7",
+            precio: 20000.00,
+            imagen: "https://i.pinimg.com/564x/e3/15/8d/e3158d6c67192c982d789714aa60b9e3.jpg",
+            description: "The Mazda RX-7 is one of Mazda's most iconic sports car models, renowned for its distinctive Wankel rotary engine and agile performance. Produced between 1978 and 2002, the RX-7 has left a lasting mark on the automotive industry."
         }
     ]
     function addProductWeb(arrAddProduct){
