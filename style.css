@@ -382,7 +382,7 @@ nav {
     font-size: 1.5rem;
     margin: 4px;
 }
-.btn-float {
+.btn-float,.btn-float-address {
     display: grid;
     place-items: center;
     position: fixed;
@@ -395,14 +395,49 @@ nav {
     border: 2px solid var(--dark-cyan);
     color: var(--black);
     background-color: var(--dark-cyan);
+}
+.btn-float {
     z-index: 3;
-    }
+}
+.btn-float-address{
+    z-index: 2;
+}
 .icon-btn-float{
     font-size: 1.3rem;
     transition: all 0.3s ease-in-out;
 }
 .bx-x{
     transform: rotate(360deg);
+}
+.icon-whatsapp {
+    font-size: 1.8rem;
+    transform: translateY(-50px);
+    transition: all 0.2s ease-in-out;
+}
+.icon-whatsapp:hover{
+    background-color: rgb(4, 221, 4);
+    color: white;
+    border-color: white;
+}
+.icon-phone {    
+    font-size: 1.8rem;
+    transform: translateY(-100px);
+    transition: all 0.2s ease-in-out;
+}
+.icon-phone:hover{
+    color: rgb(0, 110, 255);
+    background-color: white;
+    border-color:rgb(0, 110, 255);
+}
+.icon-gmail {    
+    font-size: 1.6rem;
+    transform: translateY(-150px);
+    transition: all 0.2s ease-in-out;
+}
+.icon-gmail:hover{
+    color: rgb(141, 63, 63);
+    background-color: white;
+    border-color: rgb(141, 63, 63);
 }
 @media (max-width: 562px) {
     .menu {
