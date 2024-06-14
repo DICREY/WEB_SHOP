@@ -41,14 +41,18 @@ nav {
     position: sticky;
     align-items: center;
     justify-content: space-between;
-    height: auto;
+    height: 10vh;
     width: auto;
     background-color: var(--dark-cyan);
     font-weight: bold;
-    top: 0;
     padding: 0 2%;
     border-bottom: 1px solid var(--dark-cyan);
     box-shadow: 0 1px 20px 2px var(--dark-cyan);
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .menu {
     display: none;
@@ -58,12 +62,8 @@ nav {
     color: var(--aqua);
 }
 .logo {
-    height: 60px;
-    width: 60px;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    border: 1px solid;
+    height: 50px;
+    width: 50px;
     background: url("https://i.pinimg.com/736x/7e/0c/de/7e0cdebb6b84b5d33ccc97eb3f853404.jpg") center center no-repeat;
     background-size: cover;
     border: 2px solid var(--white);
@@ -76,10 +76,6 @@ nav {
     list-style: none;
     align-items: center;
     height: 60px;
-}
-.navbar-left {
-    display: flex;
-    justify-content: center;
 }
 .navbar-left ul li a,
 .navbar-left ul li i,
@@ -141,7 +137,7 @@ nav {
     color: var(--black);
     width: 150px;
     height: auto;
-    top: 60px;
+    top: 10vh;
     right: 60px;
     border: 1px solid var(--dark-cyan);
     border-radius: 6px;
@@ -175,7 +171,7 @@ nav {
 /* shopping car */
 .cartShoppingDetail {
     position: absolute;
-    top: 60px;
+    top: 10vh;
     right: 0;
     max-height: 80vh;
     width: 360px;
@@ -311,7 +307,7 @@ nav {
 .product-detail {
     position: fixed;
     height: 85vh;
-    min-width: 320px;
+    width: 320px;
     overflow-x: hidden;
     overflow-y: auto;
     padding-bottom: 24px;
@@ -321,7 +317,7 @@ nav {
     color:var(--black);
     font-weight: bold;
     right: 0;
-    top: 60px;
+    top: 10vh;
     z-index: 4;
 }
 .product-detail-close {
@@ -457,8 +453,10 @@ nav {
     }
     .mobile-menu {
         position: absolute;
-        top: 60px;
+        top: 10vh;
         left: 0;
+        max-height: 85vh;
+        overflow: auto;
         padding: 24px;
         background-color: var(--white);
         border: 2px solid var(--dark-cyan);
