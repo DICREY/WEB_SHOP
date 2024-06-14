@@ -177,7 +177,9 @@ nav {
     position: absolute;
     top: 60px;
     right: 0;
+    max-height: 80vh;
     width: 360px;
+    overflow: auto;
     padding: 24px;
     color: var(--black);
     background-color: var(--white);
@@ -308,7 +310,10 @@ nav {
 /* Products details */
 .product-detail {
     position: fixed;
-    width: 320px;
+    height: 85vh;
+    min-width: 320px;
+    overflow-x: hidden;
+    overflow-y: auto;
     padding-bottom: 24px;
     background-color: var(--white);
     border-radius: 10px;
